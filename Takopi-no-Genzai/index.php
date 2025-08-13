@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Takopi no Genzai</title>
+    <meta name="description" content="Website landing page review anime Takopi no Genzai.">
     <link rel="icon" href="https://jkp.my.id/assets//img//icons/favico.ico">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="../assets/img/Takopi-no-Genzai/bg.webp">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 
 </head>
@@ -197,43 +199,43 @@
 
             <!-- Loop 8 gambar pertama (selalu tampil) -->
             <div class=" aspect-video">
-                <img src="../assets/img/Takopi-no-Genzai/02.webp" alt="Shizuka tertidur"
+                <img src="../assets/img/Takopi-no-Genzai/02.webp" alt="Shizuka tertidur" loading="lazy"
                     class="w-full h-full object-cover" />
             </div>
             <div class=" aspect-video">
-                <img src="../assets/img/Takopi-no-Genzai/04.webp" alt="Shizuka di kelas"
+                <img src="../assets/img/Takopi-no-Genzai/04.webp" alt="Shizuka di kelas" loading="lazy"
                     class="w-full h-full object-cover" />
             </div>
             <div class=" aspect-video">
-                <img src="../assets/img/Takopi-no-Genzai/03.webp" alt="Shizuka dan Chappy"
+                <img src="../assets/img/Takopi-no-Genzai/03.webp" alt="Shizuka dan Chappy" loading="lazy"
                     class="w-full h-full object-cover" />
             </div>
             <div class=" aspect-video">
-                <img src="../assets/img/Takopi-no-Genzai/11.webp" alt="Marina di rumah"
+                <img src="../assets/img/Takopi-no-Genzai/11.webp" alt="Marina di rumah" loading="lazy"
                     class="w-full h-full object-cover" />
             </div>
             <div class=" aspect-video">
-                <img src="../assets/img/Takopi-no-Genzai/09.webp" alt="Alat ajaib Takopi"
+                <img src="../assets/img/Takopi-no-Genzai/09.webp" alt="Alat ajaib Takopi" loading="lazy"
                     class="w-full h-full object-cover" />
             </div>
             <div class=" aspect-video">
-                <img src="../assets/img/Takopi-no-Genzai/06.webp" alt="Shizuka"
+                <img src="../assets/img/Takopi-no-Genzai/06.webp" alt="Shizuka" loading="lazy"
                     class="w-full h-full object-cover" />
             </div>
 
             <!-- Gambar ke-7-8 (hidden di mobile) -->
             <div class=" aspect-video hidden md:block">
-                <img src="../assets/img/Takopi-no-Genzai/07.webp" alt="Shizuka dan Takopi
+                <img src="../assets/img/Takopi-no-Genzai/07.webp" alt="Shizuka dan Takopi" loading="lazy"
                     class=" w-full h-full object-cover" />
             </div>
             <div class=" aspect-video hidden md:block">
-                <img src="../assets/img/Takopi-no-Genzai/05.webp" alt="Naoki"
+                <img src="../assets/img/Takopi-no-Genzai/05.webp" alt="Naoki" loading="lazy"
                     class="w-full h-full object-cover" />
             </div>
 
             <!-- Gambar ke-9 (hidden di tablet) -->
             <div class=" aspect-video hidden lg:block">
-                <img src="../assets/img/Takopi-no-Genzai/10.webp" alt="Marina"
+                <img src="../assets/img/Takopi-no-Genzai/10.webp" alt="Marina" loading="lazy"
                     class="w-full h-full object-cover" />
             </div>
 
@@ -276,21 +278,25 @@
             <div class=" aspect-square">
                 <img src="../assets/img/Takopi-no-Genzai/13.webp"
                     alt="Shizuka kehilangan Chappy"
+                    loading="lazy"
                     class="w-full h-full object-cover border-" />
             </div>
             <div class=" aspect-square hidden md:block">
                 <img src="../assets/img/Takopi-no-Genzai/08.webp"
                     alt="Shizuka, Takopi, dan Chappy"
+                    loading="lazy"
                     class="w-full h-full object-cover border-" />
             </div>
             <div class=" aspect-square hidden lg:block">
                 <img src="../assets/img/Takopi-no-Genzai/12.webp"
                     alt="RPI Marina"
+                    loading="lazy"
                     class="w-full h-full object-cover border-" />
             </div>
             <div class=" aspect-square hidden lg:block">
                 <img src="../assets/img/Takopi-no-Genzai/01.webp"
                     alt="Pertemuan Shizuka dengan Takopi"
+                    loading="lazy"
                     class="w-full h-full object-cover border-" />
             </div>
         </div>
